@@ -26,9 +26,7 @@ class Config:
     UPLOADED_IMAGES_DEST = environ.get("UPLOADED_IMAGES_DEST")
     IMAGES = environ.get("IMAGES")
     
-    # RECAPTCHA_PUBLIC_KEY = "iubhiukfgjbkhfvgkdfm"
-    # RECAPTCHA_PRIVATE_KEY = "dfjgeiajhrihiughadb"
-    # RECAPTCHA_PARAMETERS = {'size': '100%'}
+
 
     # Static Assets
     STATIC_FOLDER = "static"
